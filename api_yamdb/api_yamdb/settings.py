@@ -14,7 +14,7 @@ SECRET_KEY = os.getenv(
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['web', 'cnlis.ddns.net', 'www.cnlis.ddns.net']
 
 AUTH_USER_MODEL = 'reviews.User'
 
