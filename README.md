@@ -1,3 +1,5 @@
+![example workflow](https://github.com/cnlis/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
 # yamdb_final (api_yamdb v1)
 
 Docker-контейнеризация c web-сервером Nginx и базой данных Postgres первой
