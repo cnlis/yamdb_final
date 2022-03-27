@@ -7,7 +7,7 @@ from ...parsers.csv_parsers import (category_parser, comment_parser,
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
-        path = 'static/data'
+        path = 'static_files/data'
         user_parser(f'{path}/users.csv')
         category_parser(f'{path}/category.csv')
         genre_parser(f'{path}/genre.csv')
