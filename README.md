@@ -45,8 +45,8 @@ nano .env
 ```
 Заполнить файл следующими данными:
 ```
-DJANGO_SECRET_KEY=  # секретный ключ Django
-DJANGO_ALLOWED_HOSTS=["localhost"]  # список хостов в формате JSON
+DJANGO_SECRET_KEY=''  # секретный ключ Django
+DJANGO_ALLOWED_HOSTS='["localhost"]'  # список хостов в формате JSON
 DB_ENGINE=django.db.backends.postgresql # используемая СУБД
 DB_NAME=postgres  # название базы данных
 POSTGRES_USER=  # имя пользователя БД
